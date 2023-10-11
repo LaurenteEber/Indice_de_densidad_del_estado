@@ -1,0 +1,27 @@
+# Directorios específicos de Python
+__pycache__/
+.pytest_cache/
+.python-version
+*.py[cod]
+*.pyo
+
+# Directorios específicos de Poetry
+__pypackages__/
+.cache/
+.venv/
+.env/
+*.lock
+
+# Entorno de Conda
+.env/
+.conda/
+
+# Archivos de configuración de sistema
+.DS_Store
+
+# Logs y archivos temporales
+*.log
+*.swp
+
+# Archivo generado por coverage.py
+.coverage
